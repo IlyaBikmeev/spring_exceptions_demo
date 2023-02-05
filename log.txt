@@ -379,3 +379,182 @@ org.springframework.web.multipart.MultipartException: Current request is not a m
 2023-02-05T12:21:36.013+05:00  INFO 16780 --- [http-nio-8080-exec-7] c.e.s.controller.PictureController       : image/png, Без имени.png
 2023-02-05T12:21:36.421+05:00  INFO 16780 --- [http-nio-8080-exec-8] c.e.s.controller.PictureController       : File has been successfully written!
 2023-02-05T12:21:36.421+05:00  INFO 16780 --- [http-nio-8080-exec-8] c.e.s.controller.PictureController       : image/png, Без имени.png
+2023-02-05T12:26:28.128+05:00  INFO 15976 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 15976 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-05T12:26:28.132+05:00  INFO 15976 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-05T12:26:28.788+05:00  INFO 15976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05T12:26:28.848+05:00  INFO 15976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-02-05T12:26:29.362+05:00  INFO 15976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-05T12:26:29.372+05:00  INFO 15976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-05T12:26:29.372+05:00  INFO 15976 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-05T12:26:29.466+05:00  INFO 15976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-05T12:26:29.467+05:00  INFO 15976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1285 ms
+2023-02-05T12:26:29.588+05:00  INFO 15976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-05T12:26:29.917+05:00  INFO 15976 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79f90a3a
+2023-02-05T12:26:29.919+05:00  INFO 15976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-05T12:26:29.968+05:00  INFO 15976 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05T12:26:29.999+05:00  INFO 15976 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-05T12:26:30.134+05:00  WARN 15976 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-05T12:26:30.255+05:00  INFO 15976 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-05T12:26:30.797+05:00  INFO 15976 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05T12:26:30.805+05:00  INFO 15976 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05T12:26:31.056+05:00  WARN 15976 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05T12:26:31.415+05:00  INFO 15976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05T12:26:31.431+05:00  INFO 15976 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.88 seconds (process running for 4.579)
+2023-02-05T12:26:49.414+05:00  INFO 15976 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05T12:26:49.415+05:00  INFO 15976 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-05T12:26:49.417+05:00  INFO 15976 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-05T12:38:05.952+05:00  INFO 3804 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 3804 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-05T12:38:05.956+05:00  INFO 3804 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-05T12:38:06.625+05:00  INFO 3804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05T12:38:06.691+05:00  INFO 3804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-02-05T12:38:07.244+05:00  INFO 3804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-05T12:38:07.254+05:00  INFO 3804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-05T12:38:07.254+05:00  INFO 3804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-05T12:38:07.357+05:00  INFO 3804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-05T12:38:07.358+05:00  INFO 3804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1344 ms
+2023-02-05T12:38:07.508+05:00  INFO 3804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-05T12:38:07.670+05:00  INFO 3804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f2a1813
+2023-02-05T12:38:07.672+05:00  INFO 3804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-05T12:38:07.711+05:00  INFO 3804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05T12:38:07.752+05:00  INFO 3804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-05T12:38:07.886+05:00  WARN 3804 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-05T12:38:08.003+05:00  INFO 3804 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-05T12:38:08.645+05:00  INFO 3804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05T12:38:08.667+05:00  INFO 3804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05T12:38:08.960+05:00  WARN 3804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05T12:38:09.316+05:00  INFO 3804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05T12:38:09.327+05:00  INFO 3804 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.969 seconds (process running for 4.815)
+2023-02-05T12:38:14.042+05:00  INFO 3804 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05T12:38:14.043+05:00  INFO 3804 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-05T12:38:14.044+05:00  INFO 3804 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-05T12:39:11.218+05:00  INFO 5884 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 5884 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-05T12:39:11.222+05:00  INFO 5884 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-05T12:39:11.901+05:00  INFO 5884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05T12:39:11.961+05:00  INFO 5884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2023-02-05T12:39:12.431+05:00  INFO 5884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-05T12:39:12.440+05:00  INFO 5884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-05T12:39:12.440+05:00  INFO 5884 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-05T12:39:12.537+05:00  INFO 5884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-05T12:39:12.538+05:00  INFO 5884 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1266 ms
+2023-02-05T12:39:12.682+05:00  INFO 5884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-05T12:39:12.848+05:00  INFO 5884 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3cd26422
+2023-02-05T12:39:12.849+05:00  INFO 5884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-05T12:39:12.883+05:00  INFO 5884 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05T12:39:12.928+05:00  INFO 5884 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-05T12:39:13.122+05:00  WARN 5884 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-05T12:39:13.281+05:00  INFO 5884 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-05T12:39:13.898+05:00  INFO 5884 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05T12:39:13.908+05:00  INFO 5884 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05T12:39:14.179+05:00  WARN 5884 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05T12:39:14.606+05:00  INFO 5884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05T12:39:14.617+05:00  INFO 5884 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.968 seconds (process running for 4.702)
+2023-02-05T12:39:19.319+05:00  INFO 5884 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05T12:39:19.320+05:00  INFO 5884 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-05T12:39:19.321+05:00  INFO 5884 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-05T12:39:19.345+05:00  INFO 5884 --- [http-nio-8080-exec-2] c.e.s.controller.PictureMvcController    : Upload form method
+2023-02-05T12:40:28.317+05:00  INFO 5884 --- [http-nio-8080-exec-1] c.e.s.controller.PictureMvcController    : Upload form method
+2023-02-05T12:41:32.618+05:00  INFO 7900 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 7900 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-05T12:41:32.621+05:00  INFO 7900 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-05T12:41:33.314+05:00  INFO 7900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05T12:41:33.372+05:00  INFO 7900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-02-05T12:41:33.867+05:00  INFO 7900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-05T12:41:33.875+05:00  INFO 7900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-05T12:41:33.876+05:00  INFO 7900 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-05T12:41:33.959+05:00  INFO 7900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-05T12:41:33.959+05:00  INFO 7900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1289 ms
+2023-02-05T12:41:34.095+05:00  INFO 7900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-05T12:41:34.282+05:00  INFO 7900 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@297c9a9b
+2023-02-05T12:41:34.284+05:00  INFO 7900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-05T12:41:34.328+05:00  INFO 7900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05T12:41:34.384+05:00  INFO 7900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-05T12:41:34.518+05:00  WARN 7900 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-05T12:41:34.646+05:00  INFO 7900 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-05T12:41:35.193+05:00  INFO 7900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05T12:41:35.203+05:00  INFO 7900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05T12:41:35.479+05:00  WARN 7900 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05T12:41:35.624+05:00  INFO 7900 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-05T12:41:35.891+05:00  INFO 7900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05T12:41:35.899+05:00  INFO 7900 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.861 seconds (process running for 4.702)
+2023-02-05T12:41:39.048+05:00  INFO 7900 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05T12:41:39.048+05:00  INFO 7900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-05T12:41:39.050+05:00  INFO 7900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-05T12:41:39.097+05:00  INFO 7900 --- [http-nio-8080-exec-1] c.e.s.controller.PictureMvcController    : Upload form method
+2023-02-05T12:44:52.025+05:00  INFO 9836 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 9836 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-05T12:44:52.029+05:00  INFO 9836 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-05T12:44:52.690+05:00  INFO 9836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05T12:44:52.748+05:00  INFO 9836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-02-05T12:44:53.244+05:00  INFO 9836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-05T12:44:53.253+05:00  INFO 9836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-05T12:44:53.253+05:00  INFO 9836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-05T12:44:53.366+05:00  INFO 9836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-05T12:44:53.367+05:00  INFO 9836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1287 ms
+2023-02-05T12:44:53.488+05:00  INFO 9836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-05T12:44:53.649+05:00  INFO 9836 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ec63f8
+2023-02-05T12:44:53.651+05:00  INFO 9836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-05T12:44:53.684+05:00  INFO 9836 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05T12:44:53.719+05:00  INFO 9836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-05T12:44:53.847+05:00  WARN 9836 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-05T12:44:53.979+05:00  INFO 9836 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-05T12:44:54.579+05:00  INFO 9836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05T12:44:54.589+05:00  INFO 9836 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05T12:44:54.900+05:00  WARN 9836 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05T12:44:55.055+05:00  INFO 9836 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-05T12:44:55.319+05:00  INFO 9836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05T12:44:55.329+05:00  INFO 9836 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.877 seconds (process running for 5.03)
+2023-02-05T12:44:59.860+05:00  INFO 9836 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05T12:44:59.861+05:00  INFO 9836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-05T12:44:59.863+05:00  INFO 9836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-05T12:44:59.896+05:00  INFO 9836 --- [http-nio-8080-exec-1] c.e.s.controller.PictureMvcController    : Upload form method
+2023-02-05T12:45:13.110+05:00  INFO 2068 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 2068 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-05T12:45:13.114+05:00  INFO 2068 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-05T12:45:13.865+05:00  INFO 2068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05T12:45:13.921+05:00  INFO 2068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-02-05T12:45:14.489+05:00  INFO 2068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-05T12:45:14.505+05:00  INFO 2068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-05T12:45:14.506+05:00  INFO 2068 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-05T12:45:14.608+05:00  INFO 2068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-05T12:45:14.608+05:00  INFO 2068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1442 ms
+2023-02-05T12:45:14.771+05:00  INFO 2068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-05T12:45:15.053+05:00  INFO 2068 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@62cba181
+2023-02-05T12:45:15.054+05:00  INFO 2068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-05T12:45:15.087+05:00  INFO 2068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05T12:45:15.137+05:00  INFO 2068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-05T12:45:15.277+05:00  WARN 2068 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-05T12:45:15.412+05:00  INFO 2068 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-05T12:45:16.103+05:00  INFO 2068 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05T12:45:16.112+05:00  INFO 2068 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05T12:45:16.390+05:00  WARN 2068 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05T12:45:16.556+05:00  INFO 2068 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-05T12:45:16.818+05:00  INFO 2068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05T12:45:16.828+05:00  INFO 2068 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 4.291 seconds (process running for 5.503)
+2023-02-05T12:45:16.889+05:00  INFO 2068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05T12:45:16.890+05:00  INFO 2068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-05T12:45:16.891+05:00  INFO 2068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-05T12:45:16.917+05:00  INFO 2068 --- [http-nio-8080-exec-1] c.e.s.controller.PictureMvcController    : Upload form method
+2023-02-05T12:46:18.748+05:00  INFO 384 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 384 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-05T12:46:18.752+05:00  INFO 384 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-05T12:46:19.441+05:00  INFO 384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05T12:46:19.500+05:00  INFO 384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-02-05T12:46:20.035+05:00  INFO 384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-05T12:46:20.045+05:00  INFO 384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-05T12:46:20.045+05:00  INFO 384 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-05T12:46:20.148+05:00  INFO 384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-05T12:46:20.149+05:00  INFO 384 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1341 ms
+2023-02-05T12:46:20.268+05:00  INFO 384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-05T12:46:20.421+05:00  INFO 384 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76cf841
+2023-02-05T12:46:20.423+05:00  INFO 384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-05T12:46:20.461+05:00  INFO 384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05T12:46:20.499+05:00  INFO 384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-05T12:46:20.645+05:00  WARN 384 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-05T12:46:20.777+05:00  INFO 384 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-05T12:46:21.328+05:00  INFO 384 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05T12:46:21.337+05:00  INFO 384 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05T12:46:21.625+05:00  WARN 384 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05T12:46:21.766+05:00  INFO 384 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-02-05T12:46:22.067+05:00  INFO 384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05T12:46:22.080+05:00  INFO 384 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.993 seconds (process running for 5.143)
+2023-02-05T12:46:24.774+05:00  INFO 384 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05T12:46:24.775+05:00  INFO 384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-05T12:46:24.776+05:00  INFO 384 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-05T12:46:29.781+05:00  INFO 384 --- [http-nio-8080-exec-2] c.e.s.controller.PictureMvcController    : Upload form method
+2023-02-05T12:46:36.623+05:00  WARN 384 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
