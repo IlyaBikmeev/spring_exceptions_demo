@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lesson_1
+    username: postgres
+    password: 123
+    driver-class-name: org.postgresql.Driver
+
+logging:
+  file:
+    name: log.txt

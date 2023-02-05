@@ -1,0 +1,102 @@
+2023-02-04T12:43:32.218+05:00  INFO 16340 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 16340 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-04T12:43:32.222+05:00  INFO 16340 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-04T12:43:32.895+05:00  INFO 16340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-04T12:43:32.949+05:00  INFO 16340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-02-04T12:43:33.439+05:00  INFO 16340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-04T12:43:33.450+05:00  INFO 16340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-04T12:43:33.450+05:00  INFO 16340 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-04T12:43:33.546+05:00  INFO 16340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-04T12:43:33.547+05:00  INFO 16340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1268 ms
+2023-02-04T12:43:33.665+05:00  INFO 16340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-04T12:43:33.824+05:00  INFO 16340 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@414f87a9
+2023-02-04T12:43:33.825+05:00  INFO 16340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-04T12:43:33.862+05:00  INFO 16340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-04T12:43:33.902+05:00  INFO 16340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-04T12:43:34.025+05:00  WARN 16340 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-04T12:43:34.156+05:00  INFO 16340 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-04T12:43:34.720+05:00  INFO 16340 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-04T12:43:34.730+05:00  INFO 16340 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-04T12:43:34.979+05:00  WARN 16340 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-04T12:43:35.326+05:00  INFO 16340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-04T12:43:35.337+05:00  INFO 16340 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.774 seconds (process running for 4.476)
+2023-02-04T12:43:42.479+05:00  INFO 16340 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-04T12:43:42.479+05:00  INFO 16340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-04T12:43:42.481+05:00  INFO 16340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-04T12:43:42.583+05:00 ERROR 16340 --- [http-nio-8080-exec-1] c.e.s.controller.BookController          : No value present
+2023-02-04T12:51:12.771+05:00  INFO 10032 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 10032 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-04T12:51:12.774+05:00  INFO 10032 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-04T12:51:13.428+05:00  INFO 10032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-04T12:51:13.480+05:00  INFO 10032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-02-04T12:51:13.944+05:00  INFO 10032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-04T12:51:13.954+05:00  INFO 10032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-04T12:51:13.955+05:00  INFO 10032 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-04T12:51:14.052+05:00  INFO 10032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-04T12:51:14.053+05:00  INFO 10032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1230 ms
+2023-02-04T12:51:14.168+05:00  INFO 10032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-04T12:51:14.321+05:00  INFO 10032 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e224df5
+2023-02-04T12:51:14.322+05:00  INFO 10032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-04T12:51:14.356+05:00  INFO 10032 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-04T12:51:14.390+05:00  INFO 10032 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-04T12:51:14.505+05:00  WARN 10032 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-04T12:51:14.633+05:00  INFO 10032 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-04T12:51:15.213+05:00  INFO 10032 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-04T12:51:15.223+05:00  INFO 10032 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-04T12:51:15.470+05:00  WARN 10032 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-04T12:51:15.830+05:00  INFO 10032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-04T12:51:15.841+05:00  INFO 10032 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.644 seconds (process running for 4.414)
+2023-02-04T12:51:20.042+05:00  INFO 10032 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-04T12:51:20.043+05:00  INFO 10032 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-04T12:51:20.044+05:00  INFO 10032 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-04T12:51:20.143+05:00 ERROR 10032 --- [http-nio-8080-exec-2] c.e.s.controller.BookController          : No such book!
+2023-02-04T12:52:02.636+05:00  INFO 2828 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 2828 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-04T12:52:02.641+05:00  INFO 2828 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-04T12:52:03.317+05:00  INFO 2828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-04T12:52:03.378+05:00  INFO 2828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-02-04T12:52:03.855+05:00  INFO 2828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-04T12:52:03.865+05:00  INFO 2828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-04T12:52:03.866+05:00  INFO 2828 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-04T12:52:04.001+05:00  INFO 2828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-04T12:52:04.001+05:00  INFO 2828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1306 ms
+2023-02-04T12:52:04.129+05:00  INFO 2828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-04T12:52:04.289+05:00  INFO 2828 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f438904
+2023-02-04T12:52:04.291+05:00  INFO 2828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-04T12:52:04.324+05:00  INFO 2828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-04T12:52:04.361+05:00  INFO 2828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-04T12:52:04.506+05:00  WARN 2828 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-04T12:52:04.666+05:00  INFO 2828 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-04T12:52:05.233+05:00  INFO 2828 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-04T12:52:05.247+05:00  INFO 2828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-04T12:52:05.502+05:00  WARN 2828 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-04T12:52:05.852+05:00  INFO 2828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-04T12:52:05.863+05:00  INFO 2828 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.79 seconds (process running for 4.524)
+2023-02-04T12:52:08.615+05:00  INFO 2828 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-04T12:52:08.616+05:00  INFO 2828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-04T12:52:08.618+05:00  INFO 2828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-04T12:52:08.724+05:00 ERROR 2828 --- [http-nio-8080-exec-1] c.e.s.controller.BookController          : No such book!
+2023-02-04T12:52:30.676+05:00  INFO 8852 --- [main] c.e.s.SpringExceptionsDemoApplication    : Starting SpringExceptionsDemoApplication using Java 17.0.5 with PID 8852 (D:\java projects\spring_exceptions_demo\target\classes started by Илья in D:\java projects\spring_exceptions_demo)
+2023-02-04T12:52:30.680+05:00  INFO 8852 --- [main] c.e.s.SpringExceptionsDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-02-04T12:52:31.481+05:00  INFO 8852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-04T12:52:31.533+05:00  INFO 8852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-02-04T12:52:31.999+05:00  INFO 8852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-04T12:52:32.008+05:00  INFO 8852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-04T12:52:32.009+05:00  INFO 8852 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-04T12:52:32.106+05:00  INFO 8852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-04T12:52:32.106+05:00  INFO 8852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1373 ms
+2023-02-04T12:52:32.230+05:00  INFO 8852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-04T12:52:32.482+05:00  INFO 8852 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52227eb2
+2023-02-04T12:52:32.483+05:00  INFO 8852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-04T12:52:32.520+05:00  INFO 8852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-04T12:52:32.557+05:00  INFO 8852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-04T12:52:32.672+05:00  WARN 8852 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-04T12:52:32.805+05:00  INFO 8852 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-04T12:52:33.393+05:00  INFO 8852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-04T12:52:33.402+05:00  INFO 8852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-04T12:52:33.641+05:00  WARN 8852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-04T12:52:34.004+05:00  INFO 8852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-04T12:52:34.015+05:00  INFO 8852 --- [main] c.e.s.SpringExceptionsDemoApplication    : Started SpringExceptionsDemoApplication in 3.919 seconds (process running for 4.633)
+2023-02-04T12:52:36.099+05:00  INFO 8852 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-04T12:52:36.099+05:00  INFO 8852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-04T12:52:36.101+05:00  INFO 8852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-04T12:52:36.208+05:00 ERROR 8852 --- [http-nio-8080-exec-1] c.e.s.controller.BookController          : No such book!
+2023-02-04T12:52:39.453+05:00 ERROR 8852 --- [http-nio-8080-exec-3] c.e.s.controller.BookController          : No such book!
+2023-02-04T12:53:08.810+05:00 ERROR 8852 --- [http-nio-8080-exec-4] c.e.s.controller.BookController          : No such book!
